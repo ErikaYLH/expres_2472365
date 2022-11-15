@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Pedido</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <center>
+    <form action="">
+        <label class="Producto" for="">Producto</label>
+        <select id="producto">
+            <option value="">Seleccione</option>
+            <option value="1">Aceite</option>
+            <option value="2">Arroz</option>
+            <option value="3">Agua</option>
+        </select> <br><br>
+        <label for="">Precio: </label>
+        <input class="t" type="number" id="precio" placeholder="Ingrese el precio">
+        <br><br>
+        <label for="">Cantidad: </label>
+        <input class="t" type=" number" id="cantidad" placeholder="Ingrese la cantidad">
+        <br><br>
+        <label for="">Subtotal: </label>
+        <input class="subtotal" type="text" id="subtotal" readonly> <br><br>
+        <button id="btnRegistrar" type="button">Registrar</button>
+   
+    </form>
+
+    <p id="respuesta"></p>
+</center>
+
+    <script src="../assets/js/funciones.js"></script>
+</body>
+</html>
+
+

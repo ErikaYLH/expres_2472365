@@ -1,0 +1,45 @@
+body{
+    margin-top: 10%;
+    background-color: #D790FF;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+select{
+    height: 28px;
+    width: 100px;
+    background-color: #F0E3FF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.t{
+    background-color: #DECEEB;
+    width: 200px;
+    height: 25px;
+    border-radius: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Producto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subtotal{
+    background-color: #DECEEB;
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+}
+
+#respuesta{
+    font-size: 15px;
+    font-family: cursive;
+}
